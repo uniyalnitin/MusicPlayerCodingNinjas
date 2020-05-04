@@ -1,0 +1,643 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="d-flex justify-content-center">
+        <div class="img">
+          <a class="navbar-brand" href="#">
+            <img
+              src="images/logo-min.png"
+              width="80px"
+              height="80px"
+              class="d-inline-block align-top"
+              alt=""
+            />
+          </a>
+        </div>
+        <div class="d-flex flex-column justify-content-center">
+          <h3 class="logo-heading">Ninja</h3>
+          <h3 class="logo-heading"><b>Studio</b></h3>
+        </div>
+      </div>
+      <button
+        type="button"
+        class="navbar-toggler"
+        data-toggle="collapse"
+        data-target="#navbarCollapse"
+      >
+        <span class="navbar-toggler-icon text-white"></span>
+      </button>
+
+      <div
+        class="collapse navbar-collapse justify-content-between"
+        id="navbarCollapse"
+      >
+        <div class="nav-fav">
+          <a href="#" class="nav-item nav-link active text-white"
+            ><h5>Favourites</h5></a
+          >
+        </div>
+        <div class="navbar-nav">
+          <form class="form-inline mb-0 mr-4">
+            <div class="input-group">
+              <div class="input-group-append">
+                <button type="button" class="btn" id="search-bar-left">
+                  <i class="fas fa-search"></i>
+                </button>
+              </div>
+              <input
+                type="text"
+                class="form-control search-bar"
+                id="search-bar"
+                placeholder="Search"
+              />
+              <div class="input-group-append">
+                <button type="button" class="btn" id="search-bar-right">
+                  <i class="fas fa-microphone"></i>
+                </button>
+              </div>
+            </div>
+          </form>
+          <div class="mx-4">
+            <i class="fas fa-bell notification-bell"></i>
+          </div>
+          <div class="profile-img-container ml-4">
+            <img src="images/profile-photo.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <div class="container-fluid d-flex justify-content-start main-section">
+      <div class="content-area px-4">
+        <div class="card-slides position-relative">
+          <div class="card bg-dark text-white left-card card-slide">
+            <img
+              class="card-img"
+              src="images/one_direction_cover.jpg"
+              alt="Card image"
+            />
+          </div>
+          <div class="card bg-dark text-white main-card card-slide">
+            <img
+              class="card-img"
+              src="images/one_direction_cover.jpg"
+              alt="Card image"
+            />
+          </div>
+          <div class="card bg-dark text-white right-card card-slide">
+            <img
+              class="card-img"
+              src="images/one_direction_cover.jpg"
+              alt="Card image"
+            />
+          </div>
+        </div>
+        <div class="container-fluid mt-5">
+          <h5><b>Latest Release</b></h5>
+          <div class="row latest-release mt-4">
+            <div class="col-md-6 col-sm-12 d-flex justify-content-between mb-2">
+              <div class="d-flex latest-release">
+                <div class="latest-release-image">
+                  <img src="images/artist.jpeg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center m-2 p-2">
+                  <p class="mb-1">Onism</p>
+                  <p class="text-secondary">
+                    <small><small>Aug 11, 2017</small></small>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start align-items-end"
+              >
+                <div class="text-secondary">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="text-secondary"><small>4:44</small></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex justify-content-between mb-2">
+              <div class="d-flex latest-release">
+                <div class="latest-release-image">
+                  <img src="images/artist.jpeg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center m-2 p-2">
+                  <p class="mb-1">Onism</p>
+                  <p class="text-secondary">
+                    <small><small>Aug 11, 2017</small></small>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start align-items-end"
+              >
+                <div class="text-secondary">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="text-secondary"><small>4:44</small></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex justify-content-between my-2">
+              <div class="d-flex latest-release">
+                <div class="latest-release-image">
+                  <img src="images/artist.jpeg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center m-2 p-2">
+                  <p class="mb-1">Onism</p>
+                  <p class="text-secondary">
+                    <small><small>Aug 11, 2017</small></small>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start align-items-end"
+              >
+                <div class="text-secondary">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="text-secondary"><small>4:44</small></div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-12 d-flex justify-content-between my-2">
+              <div class="d-flex latest-release">
+                <div class="latest-release-image">
+                  <img src="images/artist.jpeg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center m-2 p-2">
+                  <p class="mb-1">Onism</p>
+                  <p class="text-secondary">
+                    <small><small>Aug 11, 2017</small></small>
+                  </p>
+                </div>
+              </div>
+              <div
+                class="d-flex flex-column justify-content-start align-items-end"
+              >
+                <div class="text-secondary">
+                  <i class="fas fa-ellipsis-h"></i>
+                </div>
+                <div class="text-secondary"><small>4:44</small></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <section id="popular-artist" class="mt-2">
+          <h5><b>Popular Artist</b></h5>
+          <div class="d-flex justify-content-between flex-wrap">
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="artist-image">
+                <img src="images/shawn-mendes.jpeg" alt="" />
+              </div>
+              <div class="artist-name">
+                <strong>Shawn Mendes</strong>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="artist-image">
+                <img src="images/shawn-mendes.jpeg" alt="" />
+              </div>
+              <div class="artist-name">
+                <strong>Shawn Mendes</strong>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="artist-image">
+                <img src="images/shawn-mendes.jpeg" alt="" />
+              </div>
+              <div class="artist-name">
+                <strong>Shawn Mendes</strong>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="artist-image">
+                <img src="images/shawn-mendes.jpeg" alt="" />
+              </div>
+              <div class="artist-name">
+                <strong>Shawn Mendes</strong>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="artist-image">
+                <img src="images/shawn-mendes.jpeg" alt="" />
+              </div>
+              <div class="artist-name">
+                <strong>Shawn Mendes</strong>
+              </div>
+            </div>
+            <div
+              class="d-flex flex-column justify-content-center align-items-center"
+            >
+              <div class="artist-image">
+                <img src="images/shawn-mendes.jpeg" alt="" />
+              </div>
+              <div class="artist-name">
+                <strong>Shawn Mendes</strong>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="music-mood" class="mt-2">
+          <div class="d-flex justify-content-between flex-wrap">
+            <div id="music-station" class="mr-4">
+              <img src="images/music-stations_final.png" alt="" />
+            </div>
+            <div class="music-mood-track position-relative">
+              <img src="images/love-music-mood.jpeg" alt="" />
+              <div class="position-absolute music-mood-name">Love</div>
+            </div>
+            <div class="music-mood-track position-relative">
+              <img src="images/retro-music-mood.jpeg" alt="" />
+              <div class="position-absolute music-mood-name">Retro</div>
+            </div>
+            <div class="music-mood-track position-relative">
+              <img src="images/chill-music-mood.jpeg" alt="" />
+              <div class="position-absolute music-mood-name">Chill</div>
+            </div>
+            <div class="music-mood-track position-relative">
+              <img src="images/workout-music-mood.jpeg" alt="" />
+              <div class="position-absolute music-mood-name">Workout</div>
+            </div>
+            <div class="music-mood-track position-relative">
+              <img src="images/rock-music-mood.jpeg" alt="" />
+              <div class="position-absolute music-mood-name">Rock</div>
+            </div>
+            <div class="music-mood-track position-relative">
+              <img src="images/pop-music-mood.jpeg" alt="" />
+              <div class="position-absolute music-mood-name">Pop</div>
+            </div>
+          </div>
+        </section>
+        <section id="event-music">
+          <div class="row">
+            <div class="col-md-4 col-sm-6 col-xs-12 mb-2">
+              <div class="card bg-dark text-white event-music-image">
+                <img
+                  class="card-img"
+                  src="images/party-music-event.jpeg"
+                  alt="Card image"
+                />
+                <div
+                  class="card-img-overlay d-flex justify-content-center align-items-center"
+                >
+                  <h4 class="card-title"><b>Party</b></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 mb-2">
+              <div class="card bg-dark text-white event-music-image">
+                <img
+                  class="card-img"
+                  src="images/electronic-music-event.jpeg"
+                  alt="Card image"
+                />
+                <div
+                  class="card-img-overlay d-flex justify-content-center align-items-center"
+                >
+                  <h4 class="card-title"><b>Electronic</b></h4>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-xs-12 mb-2">
+              <div class="card bg-dark text-white event-music-image">
+                <img
+                  class="card-img"
+                  src="images/road-trip-music-event.jpeg"
+                  alt="Card image"
+                />
+                <div
+                  class="card-img-overlay d-flex justify-content-center align-items-center"
+                >
+                  <h4 class="card-title"><b>Road Trip</b></h4>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="song-cards mt-4">
+          <h4><b>Latest English</b></h4>
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="song-cards mt-4">
+          <h4><b>Latest Hindi</b></h4>
+          <div class="d-flex justify-content-between flex-wrap">
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">
+                <b>Onism</b>
+              </div>
+              <div class="song-release-date text-secondary mt-0">
+                <small><small>Aug 11, 2017</small></small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+            <div class="d-flex flex-column justify-content-center">
+              <div class="song-card-image">
+                <img src="images/colored_flower.jpeg" alt="" />
+              </div>
+              <div class="song-name mt-2">Onism</div>
+              <div class="song-release-date text-secondary mt-0">
+                <small>Aug 11, 2017</small>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="side-bar px-4">
+        <div class="d-flex justify-content-between align-items-end flex-wrap">
+          <h3>Queue</h3>
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              queue
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </div>
+        </div>
+        <ul class="mt-2 queued-tracks">
+          <li class="active">
+            <div
+              class="d-flex justify-content-between align-items-center flex-wrap"
+            >
+              <div class="d-flex justify-content-start align-items-center">
+                <div class="active-icon">
+                  <i class="far fa-chart-bar text-secondary"></i>
+                </div>
+                <div class="queued-track-image mx-3">
+                  <img src="images/uptown-funk.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                  <h5>Mirage</h5>
+                  <h6 class="text-secondary">Else</h6>
+                </div>
+              </div>
+              <div class="heart-icon"><i class="far fa-heart"></i></div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="d-flex justify-content-between align-items-center flex-wrap"
+            >
+              <div class="d-flex justify-content-start align-items-center">
+                <h4 class="text-secondary">01</h4>
+                <div class="queued-track-image mx-3">
+                  <img src="images/uptown-funk.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                  <h5>Mirage</h5>
+                  <h6 class="text-secondary">Else</h6>
+                </div>
+              </div>
+              <div class="heart-icon"><i class="far fa-heart"></i></div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="d-flex justify-content-between align-items-center flex-wrap"
+            >
+              <div class="d-flex justify-content-start align-items-center">
+                <h4 class="text-secondary">01</h4>
+                <div class="queued-track-image mx-3">
+                  <img src="images/uptown-funk.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                  <h5>Mirage</h5>
+                  <h6 class="text-secondary">Else</h6>
+                </div>
+              </div>
+              <div class="heart-icon"><i class="far fa-heart"></i></div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="d-flex justify-content-between align-items-center flex-wrap"
+            >
+              <div class="d-flex justify-content-start align-items-center">
+                <h4 class="text-secondary">01</h4>
+                <div class="queued-track-image mx-3">
+                  <img src="images/uptown-funk.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                  <h5>Mirage</h5>
+                  <h6 class="text-secondary">Else</h6>
+                </div>
+              </div>
+              <div class="heart-icon"><i class="far fa-heart"></i></div>
+            </div>
+          </li>
+          <li>
+            <div
+              class="d-flex justify-content-between align-items-center flex-wrap"
+            >
+              <div class="d-flex justify-content-start align-items-center">
+                <h4 class="text-secondary">01</h4>
+                <div class="queued-track-image mx-3">
+                  <img src="images/uptown-funk.jpg" alt="" />
+                </div>
+                <div class="d-flex flex-column justify-content-center">
+                  <h5>Mirage</h5>
+                  <h6 class="text-secondary">Else</h6>
+                </div>
+              </div>
+              <div class="heart-icon"><i class="far fa-heart"></i></div>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <section class="d-flex flex-column bottom-bar">
+      <div class="p-2 d-flex justify-content-around">
+        <div class="d-flex justify-content-center">
+          <a href="#"
+            ><img
+              src="images/album-cover.png"
+              alt="album-cover"
+              class="album-cover"
+          /></a>
+          <div class="ml-3">
+            <div>
+              <a href="#" class="text-white"><b>Name of Song</b></a>
+            </div>
+            <div><a href="#" class="text-white">Artist</a></div>
+          </div>
+        </div>
+        <div class="player-controls d-flex flex-column justify-content-center">
+          <div class="d-flex justify-content-center">
+            <button class="btn">
+              <i class="fa fa-random text-secondary"></i>
+            </button>
+            <button class="btn">
+              <i class="fa fa-backward text-white"></i>
+            </button>
+            <button class="btn"><i class="fa fa-play text-white"></i></button>
+            <button class="btn">
+              <i class="fa fa-forward text-white"></i>
+            </button>
+            <button class="btn">
+              <i class="fa fa-refresh text-secondary"></i>
+            </button>
+          </div>
+          <div class="d-flex justify-content-center">
+            <div class="mx-2 text-xs">1:10</div>
+            <div class="mx-2 music-slider"></div>
+            <div class="mx-2 text-xs">4:40</div>
+          </div>
+        </div>
+        <div class="volume-controls d-flex align-items-center">
+          <div class="ml-1 text-xs"><i class="fa fa-gear"></i></div>
+          <div class="ml-1 text-xs"><i class="fa fa-volume-up"></i></div>
+          <div class="ml-1 volume-slider"></div>
+          <div class="mx-2 text-xs">
+            <i class="fa fa-share" aria-hidden="true"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script
+      src="https://kit.fontawesome.com/5cb4542d39.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

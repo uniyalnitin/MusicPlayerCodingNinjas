@@ -1,0 +1,285 @@
+body {
+  background-color: #130036;
+  color: white;
+}
+
+.logo-heading {
+  line-height: 1.4rem;
+  color: white;
+}
+
+.nav-fav {
+  margin-left: 5vw;
+}
+
+.navbar-nav {
+  align-items: center !important;
+}
+
+#search-bar-left {
+  border-radius: 0.6rem 0px 0px 0.6rem;
+  background-color: #3e0866;
+  position: relative;
+  color: white;
+}
+
+#search-bar {
+  background-color: #3e0866;
+  border-left-width: 0px !important;
+  border-top-width: 0px !important;
+  border-bottom-width: 0px !important;
+  color: white;
+  min-height: 3rem;
+}
+
+#search-bar-right {
+  border-radius: 0px 0.6rem 0.6rem 0px;
+  background-color: #3e0866;
+  position: relative;
+  color: white;
+}
+
+.notification-bell {
+  font-size: 1.7rem;
+}
+
+.profile-img-container {
+  height: 3.5rem;
+  width: 3.5rem;
+  margin: auto;
+}
+
+.profile-img-container > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.main-section {
+  height: 75vh;
+}
+
+.bottom-bar {
+  background-color: lightgrey;
+  height: 8vh;
+}
+
+.content-area {
+  width: 70%;
+  overflow-y: auto;
+}
+
+.side-bar {
+  width: 30%;
+  background-color: transparent;
+  padding-top: 2rem;
+  overflow-y: auto;
+}
+
+ul.queued-tracks {
+  list-style-type: none;
+}
+
+ul.queued-tracks > li {
+  margin-bottom: 0.5rem;
+}
+.queued-track-image {
+  width: 3rem;
+  height: 3rem;
+}
+
+.queued-track-image > img {
+  height: 100%;
+  width: 100%;
+  border-radius: 15%;
+  box-shadow: 0px 0px 10px 3px grey;
+  object-fit: cover;
+}
+
+.dropdown-toggle {
+  border: none !important;
+  background-color: transparent !important;
+  color: lightgreen !important;
+}
+
+.heart-icon i {
+  font-size: 1.1rem;
+}
+
+li.active .queued-track-number {
+  display: none;
+}
+
+.active-icon i {
+  font-size: 1.1rem;
+}
+
+.card-slide {
+  width: 50%;
+  height: 50%;
+  position: absolute;
+}
+
+.main-card {
+  left: 20%;
+  z-index: 2;
+  position: relative;
+  height: auto;
+}
+
+.main-card img {
+  object-fit: cover;
+  box-shadow: 0px 0px 4px 2px grey;
+}
+
+.left-card,
+.right-card {
+  width: 40%;
+  height: 40%;
+  top: 4vh;
+}
+
+.right-card {
+  left: 50%;
+}
+
+@media screen and (max-width: 800px) {
+  .card-slide {
+    top: 0%;
+    width: 100%;
+    height: auto;
+  }
+  .right-card {
+    left: 0%;
+    display: none;
+    top: 0%;
+  }
+  .left-card {
+    display: none;
+  }
+  .main-card {
+    left: 0%;
+  }
+}
+
+.latest-release-image {
+  width: 5rem;
+  height: 5.5rem;
+  top: 25%;
+}
+
+.latest-release-image > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+#popular-artist .artist-image {
+  height: 7.5rem;
+  width: 7.5rem;
+}
+
+#popular-artist .artist-image > img {
+  border-radius: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+#popular-artist .artist-name {
+  margin-top: 0.5rem;
+}
+
+#music-mood {
+  margin-top: 2rem !important;
+  margin-bottom: 2rem !important;
+  background-color: #3e0866;
+  padding: 1.5rem;
+}
+#music-mood:first-child {
+  background-color: #300253;
+}
+
+#music-station,
+.music-mood-track {
+  height: 6rem;
+  width: 6rem;
+}
+
+#music-station img,
+.music-mood-track img {
+  height: 100%;
+  width: 100%;
+}
+
+.music-mood-track img {
+  border-radius: 50%;
+  opacity: 0.8;
+  object-fit: cover;
+}
+
+.music-mood-name {
+  font-weight: bold;
+  font-size: 1rem;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.event-music-image {
+  height: 8rem !important;
+}
+
+.event-music-image img {
+  height: 100%;
+  width: 100%;
+  background-color: grey;
+}
+
+.song-card-image {
+  height: 8rem;
+  width: 8rem;
+  border-radius: 50%;
+}
+
+.song-card-image img {
+  height: 100%;
+  width: 100%;
+  border-radius: 5%;
+}
+
+.bottom-bar {
+  background-color: #282828;
+  height: 10vh;
+  color: white;
+  height: 10vh;
+  min-height: 4rem;
+}
+
+.album-cover {
+  height: 8vh;
+  width: 8vh;
+}
+
+.music-slider {
+  width: 30vw;
+  margin-top: 0.5rem;
+  border: 0.1rem solid white;
+  border-radius: 2rem;
+  height: 0;
+}
+
+.volume-slider {
+  width: 10vw;
+  border: 0.1rem solid white;
+  border-radius: 2rem;
+  height: 0;
+}
+.text-xs {
+  font-size: 0.8rem;
+}
+
+.player-controls i,
+.volume-controls i {
+  font-size: 1.1rem !important;
+}
